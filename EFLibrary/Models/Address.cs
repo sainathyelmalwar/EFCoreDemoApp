@@ -12,6 +12,7 @@ namespace EFLibrary.Models
 
         [Required]
         [MaxLength(200)]
+        [Column(TypeName ="varchar(200)")]
         public string StreetAddress { get; set; }
         [Required]
         [MaxLength(100)]
